@@ -1,0 +1,33 @@
+<!-- echo '<script>        
+ function nah(termsCheckBox){
+    //If the checkbox has been checked
+    if(termsCheckBox.checked){
+        //Set the disabled property to FALSE and enable the button.
+        document.getElementById("words").disabled = false;
+    } else{
+        //Otherwise, disable the submit button.
+        document.getElementById("words").disabled = true;
+    }
+}
+    
+    
+    function yeah(termsCheckBox){
+    //If the checkbox has been checked
+    if(termsCheckBox.checked){
+        //Set the disabled property to FALSE and enable the button.
+        document.getElementById("image").disabled = false;
+    } else{
+        //Otherwise, disable the submit button.
+        document.getElementById("image").disabled = true;
+    }
+}
+  </script>';
+        
+echo '<div class="form-group col-md-6 col-md-offset-3">
+<h5>Urabaza ibyapa?</h5>
+<input type="checkbox" name="yes" id="yes" onclick="yeah(this)">
+<label for="yes">Yego</label><br>
+<input type="checkbox"  name="no" id="no" onclick="nah(this)">
+<label for="no">Oya</label>
+</div>
+<br><br>  <br><br> <br><br>   <br><br>';  -->
